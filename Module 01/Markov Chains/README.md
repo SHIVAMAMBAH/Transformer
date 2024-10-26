@@ -68,7 +68,7 @@ So, on the first day<br>
 (1) Probability of it being Sunny (S) = 0.55<br>
 (2) Probability of it being Rainy (R)  = 0.45<br>
 
-### Application of Markov Chains
+## <div align  = "center">Application of Markov Chains</div>
 **1. Machine Learning and Artificial Intelligence**
 - **Natural Language Processing (NLP)**: Markov chains are foundational in language models for tasks like text prediction, language generation, and spell-checking. While deep learning has advanced NLP, Markov-based models (e.g., Hidden Markov Models) are still used for simpler tasks or when interpretability and lower computational cost are needed.
 - **Reinforcement Learning**: Markov Decision Processes (MDPs), a generalization of Markov chains, are fundamental in reinforcement learning, helping train agents to make decisions in games, robotics, and self-driving cars.
