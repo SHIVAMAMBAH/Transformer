@@ -91,7 +91,7 @@ Speech Recognition and Generation: Applications like virtual assistants, voice r
 - Social Media Behavior Modeling: Platforms analyze user interactions and transitions (e.g., likes, shares, follows) using Markov chains to predict user behavior and recommend content.<br>
 
 **6. Robotics and Autonomous Systems**
-Navigation and Path Planning: In robotics, Markov chains help map environments and determine the best paths, factoring in probable transitions from one state or location to another.
+- Navigation and Path Planning: In robotics, Markov chains help map environments and determine the best paths, factoring in probable transitions from one state or location to another.
 - Robot Decision-Making: For instance, cleaning robots may use Markov chains to decide the next area to clean based on current location and probable dirt accumulation.<br>
 
 **7. Computer Networks and Cybersecurity**
