@@ -29,3 +29,20 @@ Imagine we want to predict the weather for a given day, knowing that :
 - If it's rainy on a given day, then there's an 80% chnace that iw will continues to be rainy the next day and a 20% chance that it will be sunny.
 
 Given the Current whether is sunny, what is the probability that it will be sunny or rainy on each of the next two days?
+### Solution
+#### Define the States
+In this problem, we have two states
+- Sunny (S)
+- Raint (R)
+These states represent the type of weather for each day.
+#### Define the Transition probabilities
+- If the current day is Sunny (S)
+  - Probability it will be Sunny (S) the next day  = 0.7
+  - Probabilit it will be Rainy (R) the next day = 0.3
+- If the current day is Rainy (R)
+   - Probability it will be Rainy(R) on the next day = 0.8
+   - Probability it will be Sunny(S) on the next day = 0.2
+We can represent this as a transition matrix (P) :<br>
+        P = | 0.7 0.3 |<br>
+            | 0.2 0.8 |<br>
+Each row of this matrix represents the transition probabilities from the current state to the next state.
