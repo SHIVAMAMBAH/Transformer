@@ -1,4 +1,5 @@
 ## <div align="center">Introduction to Transformer and Sequence Models</div>
+## History of Sequence Models
 The history of the sequence models in machine learning and natural language processing (NLP) is a fascinating journey, evolving from early statistica methods to advanced deep learning architecture like Transformers. Here is a detailed look at this progression : 
 ### Statistical Methods for Sequence Modelling
 - **[Markov Chains (1950s)](https://github.com/SHIVAMAMBAH/Transformer/blob/main/Module%2001/Markov%20Chains/README.md)** :
