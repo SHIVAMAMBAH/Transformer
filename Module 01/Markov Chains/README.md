@@ -54,7 +54,7 @@ This vector indicates that there's a 100% probability that the current whether i
 #### Calculate the State Vector for the Next Day (Day1)
 To find the weather probability for the next day, we multiply the initial state vector by the transition matrix : <br>
 <div align = "center">V<sub>1</sub> = V<sub>0</sub>.<i>P</i></div>
-After multiplyin we will get V<sub>1</sub> as [0.7 0.3]<br>
+After multiplying we will get V<sub>1</sub> as [0.7 0.3]<br>
 So, on the first day<br>
 (1) Probability of it being Sunny (S) = 0.7<br>
 (2) Probability of it being Rainy (R)  = 0.3<br>
@@ -62,7 +62,7 @@ So, on the first day<br>
 #### Calculate the State vector for the Day next After (Day 2)
 Now we calculate the state vector for the following day<br>
 <div align = "center">V<sub>2</sub> = V<sub>1</sub>.<i>P</i></div>
-After multiplyin we will get V<sub>2</sub> as [0.55 0.45]<br>
+After multiplying we will get V<sub>2</sub> as [0.55 0.45]<br>
 So, on the first day<br>
 (1) Probability of it being Sunny (S) = 0.55<br>
 (2) Probability of it being Rainy (R)  = 0.45<br>
