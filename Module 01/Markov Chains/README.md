@@ -11,4 +11,4 @@ where: P<sub>ij</sub> = P(X<sub>n+1</sub> = s<sub>j</sub> | X<sub>n</sub> = s<su
 - The sum of probablities from any state must equal 1 : &Sigma;<sub>j</sub>P<sub>ij</sub> = 1 for all i.
 
 
-> Transition probability means the likelihood of moving from state to another in a stochastic process. It is defined as the probability of transitioning from the state Si to Sj in one time step.
+> Transition probability means the likelihood of moving from state to another in a stochastic process. It is defined as the probability of transitioning from the state S<sub>i</sub> to S<sub>j</sub> in one time step.
