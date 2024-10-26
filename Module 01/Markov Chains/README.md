@@ -33,7 +33,7 @@ Given the Current whether is sunny, what is the probability that it will be sunn
 #### Define the States
 In this problem, we have two states
 - Sunny (S)
-- Raint (R)
+- Raint (R)<br>
 These states represent the type of weather for each day.
 #### Define the Transition probabilities
 - If the current day is Sunny (S)
