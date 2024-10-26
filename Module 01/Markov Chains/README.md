@@ -46,3 +46,8 @@ We can represent this as a transition matrix (P) :<br>
         P = | 0.7 0.3 |<br>
             | 0.2 0.8 |<br>
 Each row of this matrix represents the transition probabilities from the current state to the next state.
+
+#### Define the Intial State vector
+Let's us assume the current weather is Sunny. We can represnt this as an intial state vector V<sub>0</sub>.<br>
+V<sub>0</sub> = | 1 |<br>
+                | 0 |
