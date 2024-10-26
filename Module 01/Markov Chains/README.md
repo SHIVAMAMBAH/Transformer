@@ -13,4 +13,9 @@ where: P<sub>ij</sub> = P(X<sub>n+1</sub> = s<sub>j</sub> | X<sub>n</sub> = s<su
 
 > Transition probability means the likelihood of moving from state to another in a stochastic process. It is defined as the probability of transitioning from the state S<sub>i</sub> to S<sub>j</sub> in one time step.
 
-> A stochastic process is a mathematical model used to describe a system that evolves over time in a way that involves randomness. In other words, a stochastic process is a collection of random variables, each representing the state of a system at different points in time.
+> A stochastic process is a mathematical model used to describe a system that evolves over time in a way that involves randomness. In other words, a stochastic process is a collection of random variables, each representing the state of a system at different points in time.<br>
+> Key characteristics of Stochastic processes :
+> - **Randomness** : The future of the state of the process has some degree of uncertainty, often influenced by probabilistic factors.
+> - **Time Dependence** : The process evolves over timem so it has different states at different times.
+> - **State Space** : The set of all possible states that the process can be in. This can be discrete or continues.
+> - **Indexing by Time** : The process can be indexed by time *t*, which may be continuous or discrete.
