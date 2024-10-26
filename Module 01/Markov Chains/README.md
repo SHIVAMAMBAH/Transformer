@@ -59,7 +59,7 @@ So, on the first day<br>
 (1) Probability of it being Sunny (S) = 0.7<br>
 (2) Probability of it being Rainy (R)  = 0.3<br>
 
-#### Calculate the State vector for the Day next After (Day 2)
+#### Calculate the State Vector for the Day next After (Day 2)
 Now we calculate the state vector for the following day<br>
 <div align = "center">V<sub>2</sub> = V<sub>1</sub>.<i>P</i></div>
 After multiplying we will get V<sub>2</sub> as [0.55 0.45]<br>
