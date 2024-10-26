@@ -21,3 +21,10 @@ where: P<sub>ij</sub> = P(X<sub>n+1</sub> = s<sub>j</sub> | X<sub>n</sub> = s<su
 > - **Indexing by Time** : The process can be indexed by time *t*, which may be continuous or discrete.
 
 P<sub>ij</sub>  = number of tranitions from state S<sub>i</sub> to state S<sub>j</sub> / total number of transition from the state S<sub>i</sub>
+
+
+### Problem Statement
+Imagine we want to predict the weather for a given day, knowing that : 
+- If it's sunny on a given day, there's a 70% chance that it will be sunny the next day and a 30% chance it will be rainy.
+- If it's rainy on a given day, then there's an 80% chnace that iw will continues to be rainy the next day and a 20% chance that it will be sunny.
+  Given the Current whether is sunny, what is the probability that it will be sunny or rainy on each of the next two days?
