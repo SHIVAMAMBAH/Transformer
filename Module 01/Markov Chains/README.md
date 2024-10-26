@@ -20,4 +20,4 @@ where: P<sub>ij</sub> = P(X<sub>n+1</sub> = s<sub>j</sub> | X<sub>n</sub> = s<su
 > - **State Space** : The set of all possible states that the process can be in. This can be discrete or continues.
 > - **Indexing by Time** : The process can be indexed by time *t*, which may be continuous or discrete.
 
-> P<sub>ij</sub>  = number of tranitions from state S<sub>i</sub> to state S<sub>j</sub> / total number of transition from the state S<sub>i</sub>
+P<sub>ij</sub>  = number of tranitions from state S<sub>i</sub> to state S<sub>j</sub> / total number of transition from the state S<sub>i</sub>
