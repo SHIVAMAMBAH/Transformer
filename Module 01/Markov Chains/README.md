@@ -9,3 +9,7 @@ where: P<sub>ij</sub> = P(X<sub>n+1</sub> = s<sub>j</sub> | X<sub>n</sub> = s<su
 **3. Transition Matrix** : The transition probablities can be organized into a matrix P, where the entry P<sub>ij</sub> represents the probability of transitioning from state s<sub>i</sub> to state s<sub>j</sub>. The matrix P must satisfy the following conditions:
 - Each entry is non-negative : P<sub>ij</sub> >=0.
 - The sum of probablities from any state must equal 1 : &Sigma;<sub>j</sub>P<sub>ij</sub> = 1 for all i.
+
+```
+Transition probability means the likelihood of moving from state to another in a stochastic process. It is defined as the probability of transitioning from the state Si to Sj in one time step.
+```
