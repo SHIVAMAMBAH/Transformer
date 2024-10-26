@@ -1,1 +1,1 @@
-
+Markov Chains are mathematical systems that undergo transitions from one state to another state within a finite or countable number of possible states. They are characterized by the Markov property, which states that the future state of the process depends only on the current state and not on the sequence of events that preceded it. This property is often referred to as "memorylessness".
