@@ -10,7 +10,7 @@ The history of the sequence models in machine learning and natural language proc
   - HMMs introduced a way to model hidden or unsolved states influencing observed data, marking an improvement over simple Markov chains.
   - Widely applied in <mar>speech recognition and bioinformatics</mark>, HMMs allowed models to handle sequences with unobserved (latent) variables, making them more expressive.
   - HMMs were used for tasks like speech recognition, where phonemes (sound units) needed to be infered from a sequence of audio signals, and named entiry recognition (NER).
-- **N-gram Model (1980s)** :
+- **[N-gram Model (1980s)](https://github.com/SHIVAMAMBAH/Transformer/blob/main/Module%2001/N-gram%20Model/README.md)** :
   - N-gram involve splitting sequences into fixed-size subsequences, or "grams" allowing model to estimate probabilities by counting occurance.
   - N-gram Provide more context than single words (as in markov Chains) but are still limites by the fixed sized window size.
   - They were widely used in machine translation, text prediction, and speech recognition, forming the basis of many NLP tasks before deep learning.
