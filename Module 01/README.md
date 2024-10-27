@@ -7,6 +7,6 @@ The history of the sequence models in machine learning and natural language proc
   - Markov Chains assume that the probability of the each item in a sequence depends only on the previous item.
   - Despite its simplicity, the Markov assumption helped develop many early NLP applications including simple text generation and part-of-speech tagging.
 - **Hidden Markov Models (HMMs) (1960s-1970s)**:
-  - HMMs intorduced a way to model hidden or unsolved states influencing observed data, marking an improvement over simple Markov chains
-  - Widely applied in speech recognition and bioinformatics, HMMs allowed models to handle sequences with unobserved (latent) variables, making them more expressive.
+  - HMMs introduced a way to model hidden or unsolved states influencing observed data, marking an improvement over simple Markov chains.
+  - Widely applied in <mar>speech recognition and bioinformatics</mark>, HMMs allowed models to handle sequences with unobserved (latent) variables, making them more expressive.
   - HMMs were used for tasks like speech recognition, where phonemes (sound units) needed to be infered from a sequence of audio signals, and named entiry recognition (NER).
