@@ -36,6 +36,6 @@ Consider the sentence : "I love natural language processing".
 ### Smoothing Techniques
 To address the limitations of N-gram model, especially data sparsity, various smoothing techniques are used, such as :  
 - **Laplace Smoothing** : Adds one to the count of each N-gram to ensure no probability is zero.  
-  *P(w<sub>t</sub> | w<sub>t-1</sub>, ..., w<sub>t-N+1</sub>)* = [*C(w<sub>t-N+1, ..., w<sub>t-1</sub>, w<sub>t</sub>) + 1*] / [*C(w<sub>t-N+1, ..., w<sub>t-1</sub>) + V*]
+  *P(w<sub>t</sub> | w<sub>t-1</sub>, ..., w<sub>t-N+1</sub>)* = [*C(w<sub>t-N+1, ..., w<sub>t-1</sub>, w<sub>t</sub>) + 1*] / [*C(w<sub>t-N+1, ..., w<sub>t-1</sub>) + V*]  
   where V is the vocabulary size
 - **Kneser-Ney Smoothing** : A more sophisticates method that adjusted probabilities based on the frequency of N-grams and their continuation probabilities.
