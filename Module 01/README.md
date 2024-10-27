@@ -16,12 +16,12 @@ The history of the sequence models in machine learning and natural language proc
   - They were widely used in machine translation, text prediction, and speech recognition, forming the basis of many NLP tasks before deep learning.
 
 ### Neural Network-Based Sequence Models
-- **Recurrent Neural Networks (RNNs) (1980s-1990s)**:
+- **[Recurrent Neural Networks (RNNs) (1980s-1990s)](https://github.com/SHIVAMAMBAH/RNN/tree/main)**:
   - RNNs introduced the concept of using neural networks to handle sequential data by maintaining a hidden state across time steps, allowing models to learn dependencies within the sequence.
   - This architectire enables more complex language modelling, text generation, and time-series prediction than previous statistical methods.
   - However, RNNs struggled with long-term dependencies due to issues like vanishing gradients, where gradients shrink or explode as they are backpropagated over time.
 
-- **Long Short-Term Memory (LSTM) Networks (1997):
+- **Long Short-Term Memory (LSTM) Networks (1997)**:
   - LSTM networks were developed by Hochreiter and Schmidhuber to address the limitations of standard RNNs.
   - LSTMs use a gating mechanism (input, forget, and output gates) to regulate information flow, allowing them to capture longer dependencies and reduce the vanishing gradient problem.
   - They became popular for language modellin, speech recognition, and machine translation, among other tasks.
