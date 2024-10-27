@@ -28,3 +28,14 @@ Consider the sentence : "I love natural language processing".
 3. **Trigrams** :
   - "I love natural", "love natural language", "natural language processing"
   - Probability of "language" given "love" and "natural" : *P(language|love, natural)* = *C(love, natural, language)* / *C(love, natural)*
+
+### Limitations
+1. **Data Sparsity** :  As N increases, the number of possible N-grams grows exponentially, leading to many unseen N-grams in the training data.
+2. **Context Limitation** : The model only considers a limited context (the previous N-1 words), which may not capture long-range dependencies in language.
+
+### Smoothing Techniques
+To address the limitations of N-gram model, especially data sparsity, various smoothing techniques are used, such as :  
+- **Laplace Smoothing** : Adds one to the count of each N-gram to ensure no probability is zero.
+  *P(w<sub>t</sub> | w<sub>t-1</sub>, ..., w<sub>t-N+1</sub>)* = [*C(w<sub>t-N+1, ..., w<sub>t-1</sub>, w<sub>t</sub>) + 1*] / [*C(w<sub>t-N+1, ..., w<sub>t-1</sub>) + V*]
+  where V is the vocabulary size
+- **Kneser-Ney Smoothing** : A more sophisticates method that adjusted probabilities based on the frequency of N-grams and their continuation probabilities.
