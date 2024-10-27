@@ -16,3 +16,15 @@ This leads to the approximation :
 where :  
 - *C(w<sub>t-N+1, ..., w<sub>t-1</sub>, w<sub>t</sub>)* is the count of the N-gram in the training corpus.
 - *C(w<sub>t-N+1, ..., w<sub>t-1</sub>)* is the count of the N-1 gram.
+
+### Example
+Consider the sentence : "I love natural language processing".
+1. **Unigrams**:
+- "I", "love", "natural", "language", "processing"
+- probability of "love" : *P(love)* = *C(love)* / *N*
+2. **Bigrams** :
+- "I love", "love natural", "natural language", "language precessing"
+- Probability of "natural" given "love" : *P(natural|love)* = *C(love, natural)* / *C(love)*
+3. **Trigrams** :
+  - "I love natural", "love natural language", "natural language processing"
+  - Probability of "language" given "love" and "natural" : *P(language|love, natural)* = *C(love, natural, language)* / *C(love, natural)*
