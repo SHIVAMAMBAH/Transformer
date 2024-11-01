@@ -24,4 +24,15 @@ The history of the sequence models in machine learning and natural language proc
 - **Long Short-Term Memory (LSTM) Networks (1997)**:
   - LSTM networks were developed by Hochreiter and Schmidhuber to address the limitations of standard RNNs.
   - LSTMs use a gating mechanism (input, forget, and output gates) to regulate information flow, allowing them to capture longer dependencies and reduce the vanishing gradient problem.
-  - They became popular for language modellin, speech recognition, and machine translation, among other tasks.
+  - They became popular for language modelling, speech recognition, and machine translation, among other tasks.
+- **Gated Recurrent Units (GRUs) (2014)** :
+  - GRUs introduced as a simlified version of LSTMs, use fewer gates (update and reset) to capture dependencies within sequence.
+  - GRUs provided similar performance to LSTMs while reducing computational complexity, making them popular for tasks where model efficiency was essential.
+
+### Attention Mechanism (2014)
+- **Introduction to Attention in RNNs :
+  -  The attention mechanism was first proposed in the context of neural machine translation (NMT) to allow the model to focus on relevant parts of an input sequence while decoding.
+  -  It enabled the network to assign different weights to different input tokens, improving the handling of long sentences and complex relationships within sequences.
+  -  Attention mechanism became widely used in sequence-to sequence models, enhancig the ability of RNNs, LSTMs and GRUs for tasks like translation, summarization, and question answering.
+
+###
