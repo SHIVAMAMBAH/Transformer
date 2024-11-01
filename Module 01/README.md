@@ -30,9 +30,18 @@ The history of the sequence models in machine learning and natural language proc
   - GRUs provided similar performance to LSTMs while reducing computational complexity, making them popular for tasks where model efficiency was essential.
 
 ### Attention Mechanism (2014)
-- **Introduction to Attention in RNNs :
+- **Introduction to Attention in RNNs** :
   -  The attention mechanism was first proposed in the context of neural machine translation (NMT) to allow the model to focus on relevant parts of an input sequence while decoding.
   -  It enabled the network to assign different weights to different input tokens, improving the handling of long sentences and complex relationships within sequences.
   -  Attention mechanism became widely used in sequence-to sequence models, enhancig the ability of RNNs, LSTMs and GRUs for tasks like translation, summarization, and question answering.
 
-###
+### The Transformer Model (2017)
+- **Attention is all you need (Vaswani et al., 2017)** :
+  - Transformer departs from RNN-based architectures, relying solely on attention mechanisms and discarding recurrence although.
+  - They introduced self-attention, where each element in the sequence can attend to every other element, allowing for better parallelization during training and more effective long-range dependency handlling.
+  - Transformers quickly outperformed previous models across NLP tasks, revolutionizing language modelling, machine translation, and many other domains.
+
+- **Encoder-Decoder Structure in Transformers** :
+  - The encoder processes the input sequence, while the deocder generates the output sequence.
+  - Self-attention within the encoder captures relationships words in the input sequence between the input and output sequences.
+
