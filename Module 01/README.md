@@ -46,7 +46,7 @@ The history of the sequence models in machine learning and natural language proc
   - Self-attention within the encoder captures relationships words in the input sequence between the input and output sequences.
 
 ### Transformer-Based Architecture (2018-Present)
-- **BERt (Bidirectional Encoder Representations from Transformers) (2018)** :
+- **BERT (Bidirectional Encoder Representations from Transformers) (2018)** :
   - BERT introduced bidirectional training of Transformers, meaning it could look at both the left and right context of each word, improving performance on NLP tasks that require a nuanced understanding of context.
   - It's success inspired other bi-directional models like RoBERTa and ALBERT, leading to significant advancements in tasks like question answering and sentimental analysis.
 
