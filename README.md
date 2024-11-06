@@ -2,7 +2,7 @@
 - History of Sequence Models
 - RNNs and LSTMs : Limitations
 - Introduction to Transformers : Why they were Needed
-- The "Attention us All You Need" Paper (Vaswani et al.2017)
+- The ["Attention us All You Need" Paper (Vaswani et al.2017)](https://arxiv.org/pdf/1706.03762)
 ### Module 02 : Transformer Architecture Fundamentals
 - Encoder - Decoder Architecture
 - Self -Attention and Multi-Head Attention
