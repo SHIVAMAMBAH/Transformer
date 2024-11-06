@@ -30,7 +30,7 @@
 - Transformers in Computer Vision, Audio, and Multimodel Application
 - Zero-Shot Learning and Prompt Engineering
 - Recent Advances : Efficient Transformers, Sparse Attention, and Memory-Augmented Transformers
-### Module 08 : Optimizing Transformer for Production
+### Module 08 : [Optimizing Transformer for Production](https://github.com/SHIVAMAMBAH/Transformer/tree/main/Module%2008)
 - Speeding Up Inference : Quantization, Distillation, and Pruning
 - Memory Optimization Techniques for Large Models
 - Deploying Transformemr with ONNX, TensorTX, and other tools
