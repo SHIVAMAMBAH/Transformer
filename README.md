@@ -8,7 +8,7 @@
 - Self -Attention and Multi-Head Attention
 - Positional Encoding and its Role in Sequence Data
 - Layer Normalization, Residual Connections, and Feed-Forward Networks
-### Module 03 : Deep Dive into Attention Mechanism
+### Module 03 : [Deep Dive into Attention Mechanism](https://github.com/SHIVAMAMBAH/Transformer/tree/main/Module%2003)
 - Dot-Product Attention v/s Addtive Attention
 - Self-Attention in Detail : Query, Key and Value
 - Multi-Head Attention and its Benefits
