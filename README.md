@@ -12,7 +12,7 @@
 - Dot-Product Attention v/s Addtive Attention
 - Self-Attention in Detail : Query, Key and Value
 - Multi-Head Attention and its Benefits
-### Module 04 : The transformer Model in Practice
+### Module 04 : [The transformer Model in Practice](https://github.com/SHIVAMAMBAH/Transformer/tree/main/Module%2004)
 - Embeddings in Transformer (word, Positional)
 - Batching and Masking Technique
 - Training Transformer :  Optimizers and Hyperparameter Tuning
