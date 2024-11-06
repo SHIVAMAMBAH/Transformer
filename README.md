@@ -3,7 +3,7 @@
 - RNNs and LSTMs : Limitations
 - Introduction to Transformers : Why they were Needed
 - The ["Attention us All You Need" Paper (Vaswani et al.2017)](https://arxiv.org/pdf/1706.03762)
-### Module 02 : Transformer Architecture Fundamentals
+### Module 02 : [Transformer Architecture Fundamentals](https://github.com/SHIVAMAMBAH/Transformer/tree/main/Module%2002)
 - Encoder - Decoder Architecture
 - Self -Attention and Multi-Head Attention
 - Positional Encoding and its Role in Sequence Data
