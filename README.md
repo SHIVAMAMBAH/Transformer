@@ -26,7 +26,7 @@
 - Tokenization Techniques (WordPiece, SentencePiece)
 - Common NLP Tasks : Classification, QA, Summarization, Tokenization
 - Using Hugging Face's Transformers Library
-### Module 07 : Advanced Application of Transformers
+### Module 07 : [Advanced Application of Transformers](https://github.com/SHIVAMAMBAH/Transformer/tree/main/Module%2007)
 - Transformers in Computer Vision, Audio, and Multimodel Application
 - Zero-Shot Learning and Prompt Engineering
 - Recent Advances : Efficient Transformers, Sparse Attention, and Memory-Augmented Transformers
