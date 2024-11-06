@@ -1,4 +1,4 @@
-### Module 01 : {Introduction to Transformer and Sequence Models](https://github.com/SHIVAMAMBAH/Transformer/tree/main/Module%2001)
+### Module 01 : [Introduction to Transformer and Sequence Models](https://github.com/SHIVAMAMBAH/Transformer/tree/main/Module%2001)
 - History of Sequence Models
 - RNNs and LSTMs : Limitations
 - Introduction to Transformers : Why they were Needed
