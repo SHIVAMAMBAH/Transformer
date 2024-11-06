@@ -34,7 +34,7 @@
 - Speeding Up Inference : Quantization, Distillation, and Pruning
 - Memory Optimization Techniques for Large Models
 - Deploying Transformemr with ONNX, TensorTX, and other tools
-### Module 09 : The Future of Transformer
+### Module 09 : [The Future of Transformer](https://github.com/SHIVAMAMBAH/Transformer/tree/main/Module%2009)
 - Transformers beyond NLP : Vision, Reinforcement Learning and Biomedical Application
 - Emerging Trends and NExt-generation Transformer
 - Open Research Questions and the Future of AI with Transformers
