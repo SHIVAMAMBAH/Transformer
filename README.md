@@ -17,7 +17,7 @@
 - Batching and Masking Technique
 - Training Transformer :  Optimizers and Hyperparameter Tuning
 - Practical Implementation Tips
-### Module 05 : Popular Transformer Architecture
+### Module 05 : [Popular Transformer Architecture](https://github.com/SHIVAMAMBAH/Transformer/tree/main/Module%2005)
 - BERT, GPT and Transformer-XL
 - Evolution to BERT Variants (RoBERTs, ALBERT and GPT variants)
 - Specialized Transformers (T5, BART, Longformer. BigBird)
