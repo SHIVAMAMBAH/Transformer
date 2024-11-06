@@ -21,7 +21,7 @@
 - BERT, GPT and Transformer-XL
 - Evolution to BERT Variants (RoBERTs, ALBERT and GPT variants)
 - Specialized Transformers (T5, BART, Longformer. BigBird)
-### Module 06 : Training and Fine-Tuning Transformer for NLP Tasks
+### Module 06 : [Training and Fine-Tuning Transformer for NLP Tasks](https://github.com/SHIVAMAMBAH/Transformer/tree/main/Module%2006)
 - Transfer Learning in NLP
 - Tokenization Techniques (WordPiece, SentencePiece)
 - Common NLP Tasks : Classification, QA, Summarization, Tokenization
