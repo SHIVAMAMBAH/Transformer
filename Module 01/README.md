@@ -50,5 +50,21 @@ The history of the sequence models in machine learning and natural language proc
   - BERT introduced bidirectional training of Transformers, meaning it could look at both the left and right context of each word, improving performance on NLP tasks that require a nuanced understanding of context.
   - It's success inspired other bi-directional models like RoBERTa and ALBERT, leading to significant advancements in tasks like question answering and sentimental analysis.
 
+- **GPT (Generative Pre-trained Transformer) Series (2018 - Present)** :
+  - GPT models focus on generating text based on left-to-right context, making them effective for tasks like text completion, dialogue systems, and content creation.
+  - The release of GPT-3 in 2020 showcased the potential of transformers to generate high-qualit , human-like text, pushing the boundries of language generation.
+
+- **Specialized Transformer (T5, XLNet, Transformer-XL)** :
+  - Various architecture have been developed to address specific tasks or challenges within sequence modelling, such as handling long-range dependencies, memory efficiency, and specific task adaptation.
+
+- **Recent Innovations (2021-Present)** :
+  - Transformers have continued to evolve with efficient transformer variants like BigBird and Reformer for handling long sequences, and multimodel transformers that process multiple data types (e.g. text, image).
+  - Transformers have also expanded into fields beyond NLP, such as computer vision, reinforcement learning, and genomics, demonstrating their flexibility.
+
+## 6. The Current and Future Landscape
+- **Transformers in Multimodal Applications** :
+  - Multimodal transformers can process different data types (e.g. images, and text) in the same model, paving the way for advanced applications in fields like healthcare, robotics and social media.
+- **Efficient Transformer Architectures** :
+  - techniques like sparse attention, memory-efficient transformers, and adaptive transformers continue to push the boundries, allowing transformers to handle larger data and perfrom effieciently in real-time applications.
 
 
