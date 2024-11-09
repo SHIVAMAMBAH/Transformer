@@ -61,7 +61,7 @@ The history of the sequence models in machine learning and natural language proc
   - Transformers have continued to evolve with efficient transformer variants like BigBird and Reformer for handling long sequences, and multimodel transformers that process multiple data types (e.g. text, image).
   - Transformers have also expanded into fields beyond NLP, such as computer vision, reinforcement learning, and genomics, demonstrating their flexibility.
 
-## 6. The Current and Future Landscape
+## The Current and Future Landscape
 - **Transformers in Multimodal Applications** :
   - Multimodal transformers can process different data types (e.g. images, and text) in the same model, paving the way for advanced applications in fields like healthcare, robotics and social media.
 - **Efficient Transformer Architectures** :
