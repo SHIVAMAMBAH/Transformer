@@ -67,28 +67,28 @@ The history of the sequence models in machine learning and natural language proc
 - **Efficient Transformer Architectures** :
   - techniques like sparse attention, memory-efficient transformers, and adaptive transformers continue to push the boundries, allowing transformers to handle larger data and perfrom effieciently in real-time applications.
 
-## RN#s and LSTMs : Limitations
+## RNNs and LSTMs : Limitations
 ### Limitations of RNNs
 - **vanishing and Exploding Gradients**
      - **Description** :
        - RNNs rely on backpropogation through time (BPTT) to ypdate weights. During this process, gradients are propogated backward through many time steps.
        - If the gradients become very small (vanishing) or very large (exploding) the model's ability to learn the long-term dependencies is compremised.
-      - **Impact** :
+     - **Impact** :
         - Vanishing gradients make it difficult for RNNs to learn long-range dependencies, as the model cannot effectively update weights for earlier time steps.
         - Exploding gradients cause instability during training, leading to divergence of the learning process.
 - **Difficulty in capturing Long-Term Dependencies**
      - **Description** :
        - RNNs struggle to maintain information over long sequences due to the vanishing gradient problem.
        - They tend to proritize recent information over old context, leading to poor performance on tasks requiring long-term memory (e.g. language translation with distant dependencies).
-      - **Impact** :
+     - **Impact** :
         - Tasks requiring the model to relate information for apart in the sequence, such as understanding the context of a novel or resolving long-range coreferences, suffer.
 - **Sequential processing**
      - **Description** :
        - RNNs process input sequentially, step by step, which limits parallelization during training and inference.
-     - **Impact** :
+    - **Impact** :
       - This sequential dependecy results in longer training times and makes RNNs computationally inefficient compared to models that can leverage parallel processing, such as Transformers.
 - **Fixed Input and Output Lengths** :
      - **Descriptin** :
        - While RNNs can handle variable-length input sequences, they often require pre-determined lengths for input and output sequences in practice.
-      - **Impact** :
+    - **Impact** :
         - This can be limiting for certain tasks where dynamic sequence lengths are crucial, like real-time streaming data analysis.
